@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <!--[if lt IE 7]>
+      <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+      <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+    <![endif]-->
+    
+    <script type="text/javascript">
+      if (!window.console) console = {log: function() {}};
+    </script>
+    
+    <link type="text/css" rel="stylesheet" href="slopegraph.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v2.min.js"></script>
+    <script type="text/javascript" src = "slopegraph.js"></script>
+  </head>
+  <body>
+    <section id="wrapper">
+      <div id='slopegraph'></div>
+      <div id = 'infobox'>
+        <h2 id="c_name">County</h2>
+        <h1 id="difference">+18.1</h1>
+        <h4><span class = "num" id = "num_left">11.7</span>-<span class = "num" id = "num_right">17.1</span></h4>
+      </div>
+    </section>
+    <section id="contols">
+    <select id = "data_set1">
+      
+    </select>
+    <select id = "year1">
+      
+    </select>
+    <select id = "data_set2">
+      
+    </select>
+    <select id = "year2">
+      
+    </select>
+  </section>
+  </body>
+</html>

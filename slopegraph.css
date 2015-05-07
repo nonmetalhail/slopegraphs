@@ -1,0 +1,83 @@
+body {
+  font-family:georgia;
+  text-align:center;
+}
+
+h1 {
+  font-size: 72px;
+  margin: 0 auto 10px auto;
+  color: #444; 
+  clear: both;
+}
+
+h2{
+  font-size: 20px;
+  float: left;
+  margin: 10px 0 0 15px;
+  color: #666; 
+  clear:both;
+}
+
+h4{
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  color: #999;  
+}
+
+#wrapper{
+  width:800px;
+  height: 875px;
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+}
+
+#slopegraph{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#infobox{
+  width: 250px;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  
+  position: absolute;
+  top:50px;
+  right:-200px;
+  z-index:10;
+  opacity: 0;
+  /*display:none;*/
+}
+
+.info_left{
+  left:-200px;
+}
+
+.num{
+  margin: 0 10px;
+}
+
+#controls{
+  display:block;
+}
+
+line.Oregon{
+  stroke: #000/*#2569e1*/;
+  stroke-width: 1;
+}
+
+/*text.Oregon{
+  fill: #000cff;
+}*/
+
+line.over{
+  /*stroke: #dd4d39;*/
+  stroke-width: 2;
+  opacity: 1;
+}
+
+text.over{
+  /*fill: #dd4d39;*/
+  opacity: 1;
+}
